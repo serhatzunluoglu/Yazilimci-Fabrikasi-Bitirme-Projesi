@@ -114,3 +114,28 @@ input:focus,
 button:focus {
   outline: none;
 }
+
+.logout{
+  width: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(132, 132, 255);
+  position: fixed;
+  bottom: 20px;
+  right: 43%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.495);
+}
+
+:hover.logout{
+  width: 200px;
+  padding: 30px;
+  border-radius: 35px;
+  transition: all 0.5s;
+  border: none;
+  background-color: rgb(132, 132, 255);
+  position: fixed;
+  bottom: 10px;
+  right: 43%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.621);
+}

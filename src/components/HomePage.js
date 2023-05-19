@@ -47,8 +47,8 @@ function App() {
     <div className="App">
       
       <div>
+        <button className="logout" onClick={logout}>Logout</button>
         <Title />
-        <button onClick={logout}>Logout</button>
       </div>
       <div>
         <AddTodo />

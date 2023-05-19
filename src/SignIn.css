@@ -1,0 +1,24 @@
+.signin{
+    
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(132, 132, 255);
+    margin-top: 20%;
+    margin-left: 43%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.495);
+}
+
+:hover.signin{
+    
+    width: 200px;
+    transition: all 0.5s;
+    padding: 30px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(132, 132, 255);
+    margin-top: 19%;
+    margin-left: 43%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.756);
+}
